@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sahiloj/MCPScan/actions"><img src="https://img.shields.io/github/actions/workflow/status/sahiloj/MCPScan/ci.yml?branch=main&style=flat-square&label=CI&logo=github" alt="CI"></a>
   <a href="https://github.com/sahiloj/MCPScan/releases/latest"><img src="https://img.shields.io/github/v/release/sahiloj/MCPScan?style=flat-square&logo=github&color=blue" alt="Release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License"></a>
 </p>
@@ -91,11 +90,11 @@ MCPScan runs **8 check categories** covering the full MCP attack surface:
 
 | CVE | Package | CVSS | Summary |
 |---|---|---|---|
-| [CVE-2025-6514](https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/) | `mcp-remote` | **9.6** 🔴 | Arbitrary OS command execution — first full system compromise via MCP |
-| [CVE-2025-49596](https://nvd.nist.gov/vuln/detail/CVE-2025-49596) | `@modelcontextprotocol/inspector` | **9.4** 🔴 | Unauthenticated RCE via inspector-proxy |
-| [CVE-2025-59536](https://research.checkpoint.com) | `@anthropic-ai/claude-code` | **9.1** 🔴 | Project file RCE + API token exfiltration |
-| [CVE-2025-53967](https://nvd.nist.gov/vuln/detail/CVE-2025-53967) | `figma-developer-mcp` | **8.2** 🟠 | Command injection via shell string interpolation |
-| [CVE-2026-25536](https://nvd.nist.gov/vuln/detail/CVE-2026-25536) | `@modelcontextprotocol/sdk` | **7.5** 🟡 | StreamableHTTP data leakage across clients (v1.10.0–1.25.3) |
+| [CVE-2025-6514](https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/) | `mcp-remote` | **9.6**  | Arbitrary OS command execution — first full system compromise via MCP |
+| [CVE-2025-49596](https://nvd.nist.gov/vuln/detail/CVE-2025-49596) | `@modelcontextprotocol/inspector` | **9.4**  | Unauthenticated RCE via inspector-proxy |
+| [CVE-2025-59536](https://research.checkpoint.com) | `@anthropic-ai/claude-code` | **9.1**  | Project file RCE + API token exfiltration |
+| [CVE-2025-53967](https://nvd.nist.gov/vuln/detail/CVE-2025-53967) | `figma-developer-mcp` | **8.2**  | Command injection via shell string interpolation |
+| [CVE-2026-25536](https://nvd.nist.gov/vuln/detail/CVE-2026-25536) | `@modelcontextprotocol/sdk` | **7.5** | StreamableHTTP data leakage across clients (v1.10.0–1.25.3) |
 
 ---
 
@@ -305,7 +304,7 @@ npm run build
 ## 📚 References
 
 - [MCP Specification (2025-11-25)](https://modelcontextprotocol.io/specification/2025-11-25)
-- [OWASP MCP Top 10 (2025)](https://owasp.org/www-project-mcp-top-10/2025/)
+- [OWASP MCP Top 10 (2025)](https://owasp.org/www-project-mcp-top-10/)
 - [Tool Poisoning Attacks — Invariant Labs](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 - [MCP Attack Vectors — Palo Alto Unit 42](https://unit42.paloaltonetworks.com/model-context-protocol-attack-vectors/)
 - [CVE-2025-6514 Deep Dive — JFrog](https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/)
