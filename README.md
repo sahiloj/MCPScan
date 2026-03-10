@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="mcpscan-logo.svg" alt="MCPScan" width="320" />
+  <img src="mcpscan-logo.svg" alt="MCPScan" width="560" />
 </p>
 
 <p align="center">
