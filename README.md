@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="mcpscan-logo.svg" alt="MCPScan" width="320" />
+</p>
+
+<p align="center">
+  <strong>Offensive MCP Server Security Auditor</strong><br>
+  <a href="#checks">Checks</a> · <a href="#install">Install</a> · <a href="#usage">Usage</a> · <a href="#cve-references">CVEs</a>
+</p>
+
+---
+
 # MCPScan
 
 An offensive security auditor for [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers. Connects to servers, enumerates their tools, resources, and prompts, then runs a battery of security checks covering tool poisoning, credential leakage, RCE vectors, supply chain vulnerabilities, and more.
