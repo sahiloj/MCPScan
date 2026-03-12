@@ -12,10 +12,6 @@
 </p>
 
 <p align="center">
-  <img src="demo.gif" alt="MCPScan demo" width="720" />
-</p>
-
-<p align="center">
   <a href="#-threat-landscape">Threat Landscape</a> ·
   <a href="#-checks">Checks</a> ·
   <a href="#-install">Install</a> ·
@@ -24,38 +20,11 @@
   <a href="#-output-formats">Output</a>
 </p>
 
----
+<p align="center">
+  <img src="demo.gif" alt="MCPScan demo" width="720" />
+</p>
 
-```
-  MCPScan — Offensive MCP Server Auditor
-  ──────────────────────────────────────────────────────────
 
-  Server: filesystem-server  (stdio: npx @modelcontextprotocol/server-filesystem /home)
-  Enumerated: 12 tools · 0 resources · 0 prompts
-
-   CRITICAL   MCP-701  RCE Vector: Shell/Execution Parameter Name
-              Location:  tool: bash_exec > inputSchema
-              Evidence:  Dangerous params: command, args
-              CVE:       CVE-2025-6514 (CVSS 9.6)
-              Fix:       Use allowlists; never pass raw input to shell functions
-
-   HIGH       MCP-304  Overprivileged: Unrestricted Filesystem Path Parameter
-              Location:  tool: write_file > inputSchema
-              Evidence:  Tool: write_file, capabilities: fs-write
-              Fix:       Add a path allow-list restricting access to approved directories
-
-   HIGH       MCP-202  Credential Leak: Anthropic API Key
-              Location:  tool: call_llm > description
-              Evidence:  sk-ant-api03-••••••••••••••••
-              Fix:       Rotate immediately. Never embed secrets in tool metadata.
-
-  ╭──────────────── MCPScan Results ─────────────────╮
-  │                                                   │
-  │   Scanned 3 servers  ·  Enumerated in 4.2s        │
-  │   2 critical  ·  5 high  ·  1 medium  ·  1 low    │
-  │                                                   │
-  ╰───────────────────────────────────────────────────╯
-```
 
 ---
 
