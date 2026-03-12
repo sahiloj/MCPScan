@@ -12,6 +12,10 @@
 </p>
 
 <p align="center">
+  <img src="demo.gif" alt="MCPScan demo" width="720" />
+</p>
+
+<p align="center">
   <a href="#-threat-landscape">Threat Landscape</a> ·
   <a href="#-checks">Checks</a> ·
   <a href="#-install">Install</a> ·
